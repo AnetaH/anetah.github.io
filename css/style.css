@@ -392,7 +392,7 @@ footer p {
 	}
 }
 
-@media (orientation: landscape) and (max-width: 767px) {
+@media (orientation: landscape) and (max-width: 991px) {
 	.slogan {
 		margin-top: 15px;
 	}
