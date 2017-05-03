@@ -173,7 +173,7 @@ header nav ul li:hover {
 /*---JUMBOTRON*---*/
 .jumbotron {
 	height: 100vh;
-	width: 100%;
+	max-width: 100%;
 	background-image: url('../images/jumbotron.jpg');
 	background-size: cover;
 	background-attachment: fixed;
@@ -352,14 +352,6 @@ footer p {
 
 /*---MEDIA QUERIES---*/
 @media (max-width: 767px) {
-	[class*="col-"] {
-		width: 100%;
-	}
-
-	[class*="col-"] a {
-	display: block;
-	}
-
 	header nav ul {   
 		float: none;
 	}
@@ -367,6 +359,13 @@ footer p {
 	header nav ul li {
 		display: block;
 		text-align: center;
+	}
+	.jumbotron {
+		background-attachment: scroll;
+	}
+
+	.slogan {
+		margin-top: 20%;
 	}
 
 	#about {
@@ -377,5 +376,18 @@ footer p {
 
 	#about p {
 	margin: 30px;
+	}
+
+	.interlude {
+		height: 50vh;
+		background-attachment: scroll;
+	}
+
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	[class*="col-"] a {
+	display: block;
 	}
 }
