@@ -391,3 +391,9 @@ footer p {
 	display: block;
 	}
 }
+
+@media (orientation: landscape) and (max-width: 767px) {
+	.slogan {
+		margin-top: 15px;
+	}
+}
