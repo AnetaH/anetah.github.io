@@ -392,8 +392,13 @@ footer p {
 	}
 }
 
-@media (orientation: landscape) and (max-width: 767px) {
+@media (orientation: landscape) and (max-width: 991px) {
+	.jumbotron {
+		background-attachment: scroll;
+	}
+	
 	.slogan {
 		margin-top: 15px;
+		padding-top: 10px;
 	}
 }
